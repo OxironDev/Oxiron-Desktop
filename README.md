@@ -21,7 +21,7 @@ To build this application from source, you need:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/nuekkis/Oxiron-Desktop.git
+   git clone https://github.com/OxironDev/Oxiron-Desktop.git
    cd Oxiron-Desktop
    ```
 
