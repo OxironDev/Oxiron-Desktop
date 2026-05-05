@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oxiron API Console</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <nav id="toolbar">
+      <div class="nav-buttons">
+        <button id="btn-console" class="nav-btn active" data-route="/console">Console</button>
+        <button id="btn-test" class="nav-btn" data-route="/test-request">Test Request</button>
+        <button id="btn-endpoints" class="nav-btn" data-route="/endpoints">Endpoints</button>
+        <button id="btn-docs" class="nav-btn" data-route="/docs">Docs</button>
+      </div>
+    </nav>
+    <main id="content-area">
+      <iframe id="main-frame" src="http://localhost:5173/console" frameborder="0" sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"></iframe>
+    </main>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
