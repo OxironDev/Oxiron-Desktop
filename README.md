@@ -51,4 +51,4 @@ This repository contains the source code for the Oxiron Desktop wrapper. The int
 
 ## ⚖️ License
 
-MIT License - feel free to use and contribute!
+Apache License 2.0 - feel free to use and contribute!
