@@ -22,7 +22,7 @@
     },
     "windows": [
       {
-        "title": "Oxiron API Console",
+        "title": "Oxiron Dev.",
         "width": 1200,
         "height": 800,
         "resizable": true,
